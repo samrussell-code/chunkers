@@ -1,0 +1,9 @@
+{
+  "parent": "homer_simpson:custom/raw_lard_mold_block",
+  "textures": {
+    "all": "homer_simpson:block/raw_lard_mold_block",
+    "particle": "homer_simpson:block/raw_lard_mold_block",
+    "0": "homer_simpson:block/raw_lard_mold_block"
+  },
+  "render_type": "cutout_mipped"
+}

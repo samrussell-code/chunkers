@@ -15,8 +15,8 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.homersimpson.item.TappedOutDiscItem;
 import net.mcreator.homersimpson.item.SimpsonsDonutItem;
+import net.mcreator.homersimpson.item.DiarrheaItem;
 import net.mcreator.homersimpson.item.ChunkOfLardItem;
-import net.mcreator.homersimpson.item.BenBurgerItem;
 import net.mcreator.homersimpson.HomerSimpsonMod;
 
 public class HomerSimpsonModItems {
@@ -26,8 +26,13 @@ public class HomerSimpsonModItems {
 	public static final RegistryObject<Item> TAPPED_OUT_DISC = REGISTRY.register("tapped_out_disc", () -> new TappedOutDiscItem());
 	public static final RegistryObject<Item> BEN_CHUNKER_SPAWN_EGG = REGISTRY.register("ben_chunker_spawn_egg", () -> new ForgeSpawnEggItem(HomerSimpsonModEntities.BEN_CHUNKER, -4480355, -13076545, new Item.Properties()));
 	public static final RegistryObject<Item> POO = block(HomerSimpsonModBlocks.POO);
-	public static final RegistryObject<Item> BEN_BURGER = REGISTRY.register("ben_burger", () -> new BenBurgerItem());
 	public static final RegistryObject<Item> CHUNK_OF_LARD = REGISTRY.register("chunk_of_lard", () -> new ChunkOfLardItem());
+	public static final RegistryObject<Item> BEN_BURGER = block(HomerSimpsonModBlocks.BEN_BURGER);
+	public static final RegistryObject<Item> RAW_LARD_MOLD_BLOCK = block(HomerSimpsonModBlocks.RAW_LARD_MOLD_BLOCK);
+	public static final RegistryObject<Item> PROCESSED_LARD_BLOCK = block(HomerSimpsonModBlocks.PROCESSED_LARD_BLOCK);
+	public static final RegistryObject<Item> RAW_LARD_BLOCK = block(HomerSimpsonModBlocks.RAW_LARD_BLOCK);
+	public static final RegistryObject<Item> POO_BLOCK = block(HomerSimpsonModBlocks.POO_BLOCK);
+	public static final RegistryObject<Item> DIARRHEA_BUCKET = REGISTRY.register("diarrhea_bucket", () -> new DiarrheaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

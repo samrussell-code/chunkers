@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "homer_simpson:poo"
+    }
+  },
+  "result": {
+    "item": "homer_simpson:poo_block",
+    "count": 1
+  }
+}

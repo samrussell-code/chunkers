@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "homer_simpson:processed_lard_block",
+    "homer_simpson:raw_lard_mold_block",
+    "homer_simpson:raw_lard_block",
+    "homer_simpson:poo_block"
+  ]
+}

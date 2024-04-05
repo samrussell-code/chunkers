@@ -33,6 +33,8 @@ import net.mcreator.homersimpson.init.HomerSimpsonModTabs;
 import net.mcreator.homersimpson.init.HomerSimpsonModSounds;
 import net.mcreator.homersimpson.init.HomerSimpsonModParticleTypes;
 import net.mcreator.homersimpson.init.HomerSimpsonModItems;
+import net.mcreator.homersimpson.init.HomerSimpsonModFluids;
+import net.mcreator.homersimpson.init.HomerSimpsonModFluidTypes;
 import net.mcreator.homersimpson.init.HomerSimpsonModEntities;
 import net.mcreator.homersimpson.init.HomerSimpsonModBlocks;
 
@@ -63,6 +65,8 @@ public class HomerSimpsonMod {
 
 		HomerSimpsonModParticleTypes.REGISTRY.register(bus);
 
+		HomerSimpsonModFluids.REGISTRY.register(bus);
+		HomerSimpsonModFluidTypes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

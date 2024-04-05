@@ -23,8 +23,13 @@ public class HomerSimpsonModTabs {
 				tabData.accept(HomerSimpsonModItems.TAPPED_OUT_DISC.get());
 				tabData.accept(HomerSimpsonModItems.BEN_CHUNKER_SPAWN_EGG.get());
 				tabData.accept(HomerSimpsonModBlocks.POO.get().asItem());
-				tabData.accept(HomerSimpsonModItems.BEN_BURGER.get());
 				tabData.accept(HomerSimpsonModItems.CHUNK_OF_LARD.get());
+				tabData.accept(HomerSimpsonModBlocks.BEN_BURGER.get().asItem());
+				tabData.accept(HomerSimpsonModBlocks.RAW_LARD_MOLD_BLOCK.get().asItem());
+				tabData.accept(HomerSimpsonModBlocks.PROCESSED_LARD_BLOCK.get().asItem());
+				tabData.accept(HomerSimpsonModBlocks.RAW_LARD_BLOCK.get().asItem());
+				tabData.accept(HomerSimpsonModBlocks.POO_BLOCK.get().asItem());
+				tabData.accept(HomerSimpsonModItems.DIARRHEA_BUCKET.get());
 			})
 
 					.build());

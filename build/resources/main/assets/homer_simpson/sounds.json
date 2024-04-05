@@ -127,5 +127,38 @@
         "stream": false
       }
     ]
+  },
+  "fart": {
+    "subtitle": "subtitles.fart",
+    "sounds": [
+      {
+        "name": "homer_simpson:fart1",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:fart2",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:fart3",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:fart4",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:fart5",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:fart6",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:fart7",
+        "stream": false
+      }
+    ]
   }
 }

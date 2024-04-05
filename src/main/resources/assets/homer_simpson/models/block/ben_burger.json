@@ -1,0 +1,9 @@
+{
+  "parent": "homer_simpson:custom/burger",
+  "textures": {
+    "all": "homer_simpson:block/burger",
+    "particle": "homer_simpson:block/burger",
+    "0": "homer_simpson:block/burger_block"
+  },
+  "render_type": "cutout"
+}

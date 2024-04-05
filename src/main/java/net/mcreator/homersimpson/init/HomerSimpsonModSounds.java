@@ -21,4 +21,5 @@ public class HomerSimpsonModSounds {
 	public static final RegistryObject<SoundEvent> HOMER_WALK = REGISTRY.register("homer_walk", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("homer_simpson", "homer_walk")));
 	public static final RegistryObject<SoundEvent> TAPPED_OUT = REGISTRY.register("tapped_out", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("homer_simpson", "tapped_out")));
 	public static final RegistryObject<SoundEvent> CHUNKER_AMBIENT = REGISTRY.register("chunker_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("homer_simpson", "chunker_ambient")));
+	public static final RegistryObject<SoundEvent> FART = REGISTRY.register("fart", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("homer_simpson", "fart")));
 }

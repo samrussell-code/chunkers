@@ -137,60 +137,24 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\russe\MCreatorWorkspaces\homer_simpson\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
-Conflicting propagated mapping for net/mcreator/homersimpson/client/particle/StinkCloudParticle/tick()V from net/minecraft/client/particle/Particle/tick()V: tick -> m_5989_
-Conflicting propagated mapping for net/mcreator/homersimpson/client/particle/StinkCloudParticle/getRenderType()Lnet/minecraft/client/particle/ParticleRenderType; from net/minecraft/client/particle/Particle/getRenderType()Lnet/minecraft/client/particle/ParticleRenderType;: getRenderType -> m_7556_
-Conflicting propagated mapping for net/mcreator/homersimpson/client/particle/StinkCloudParticle$StinkCloudParticleProvider/createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDD)Lnet/minecraft/client/particle/Particle; from net/minecraft/client/particle/ParticleProvider/createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDD)Lnet/minecraft/client/particle/Particle;: createParticle -> m_6966_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/shouldShowName(Lnet/minecraft/world/entity/Entity;)Z from net/minecraft/client/renderer/entity/EntityRenderer/shouldShowName(Lnet/minecraft/world/entity/Entity;)Z: shouldShowName -> m_6512_
 Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
 Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/EntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
-Conflicting propagated mapping for net/mcreator/homersimpson/block/PooBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
-Conflicting propagated mapping for net/mcreator/homersimpson/block/PooBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
-Conflicting propagated mapping for net/mcreator/homersimpson/block/PooBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
-Conflicting propagated mapping for net/mcreator/homersimpson/block/PooBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for net/mcreator/homersimpson/block/PooBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
-Conflicting propagated mapping for net/mcreator/homersimpson/block/PooBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions; from net/minecraft/world/entity/LivingEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;: getDimensions -> m_6972_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions; from net/minecraft/world/entity/LivingEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;: getDimensions -> m_6972_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/Mob/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: readAdditionalSaveData -> m_7378_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/Mob/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: readAdditionalSaveData -> m_7378_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/die(Lnet/minecraft/world/damagesource/DamageSource;)V from net/minecraft/world/entity/LivingEntity/die(Lnet/minecraft/world/damagesource/DamageSource;)V: die -> m_6667_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/die(Lnet/minecraft/world/damagesource/DamageSource;)V from net/minecraft/world/entity/LivingEntity/die(Lnet/minecraft/world/damagesource/DamageSource;)V: die -> m_6667_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/defineSynchedData()V from net/minecraft/world/entity/Mob/defineSynchedData()V: defineSynchedData -> m_8097_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/defineSynchedData()V from net/minecraft/world/entity/Mob/defineSynchedData()V: defineSynchedData -> m_8097_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/Mob/addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: addAdditionalSaveData -> m_7380_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/Mob/addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: addAdditionalSaveData -> m_7380_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/aiStep()V from net/minecraft/world/entity/Mob/aiStep()V: aiStep -> m_8107_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/aiStep()V from net/minecraft/world/entity/Mob/aiStep()V: aiStep -> m_8107_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/entity/Entity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: playStepSound -> m_7355_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/entity/Entity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: playStepSound -> m_7355_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/baseTick()V from net/minecraft/world/entity/Mob/baseTick()V: baseTick -> m_6075_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/baseTick()V from net/minecraft/world/entity/Mob/baseTick()V: baseTick -> m_6075_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/HomerSimpsonEntity/tickDeath()V from net/minecraft/world/entity/LivingEntity/tickDeath()V: tickDeath -> m_6153_
-Conflicting propagated mapping for net/mcreator/homersimpson/entity/BenChunkerEntity/tickDeath()V from net/minecraft/world/entity/LivingEntity/tickDeath()V: tickDeath -> m_6153_
-Conflicting propagated mapping for net/mcreator/homersimpson/item/ChunkOfLardItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/mcreator/homersimpson/item/ChunkOfLardItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
-Conflicting propagated mapping for net/mcreator/homersimpson/item/BenBurgerItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getFlowing()Lnet/minecraft/world/level/material/Fluid; from net/minecraft/world/level/material/FlowingFluid/getFlowing()Lnet/minecraft/world/level/material/Fluid;: getFlowing -> m_5615_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/createLegacyBlock(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/material/Fluid/createLegacyBlock(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/level/block/state/BlockState;: createLegacyBlock -> m_5804_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getTickDelay(Lnet/minecraft/world/level/LevelReader;)I from net/minecraft/world/level/material/Fluid/getTickDelay(Lnet/minecraft/world/level/LevelReader;)I: getTickDelay -> m_6718_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/canConvertToSource(Lnet/minecraft/world/level/Level;)Z from net/minecraft/world/level/material/FlowingFluid/canConvertToSource(Lnet/minecraft/world/level/Level;)Z: canConvertToSource -> m_6760_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/isSame(Lnet/minecraft/world/level/material/Fluid;)Z from net/minecraft/world/level/material/Fluid/isSame(Lnet/minecraft/world/level/material/Fluid;)Z: isSame -> m_6212_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getPickupSound()Ljava/util/Optional; from net/minecraft/world/level/material/Fluid/getPickupSound()Ljava/util/Optional;: getPickupSound -> m_142520_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getSlopeFindDistance(Lnet/minecraft/world/level/LevelReader;)I from net/minecraft/world/level/material/FlowingFluid/getSlopeFindDistance(Lnet/minecraft/world/level/LevelReader;)I: getSlopeFindDistance -> m_6719_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getExplosionResistance()F from net/minecraft/world/level/material/Fluid/getExplosionResistance()F: getExplosionResistance -> m_6752_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getSource()Lnet/minecraft/world/level/material/Fluid; from net/minecraft/world/level/material/FlowingFluid/getSource()Lnet/minecraft/world/level/material/Fluid;: getSource -> m_5613_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getDropOff(Lnet/minecraft/world/level/LevelReader;)I from net/minecraft/world/level/material/FlowingFluid/getDropOff(Lnet/minecraft/world/level/LevelReader;)I: getDropOff -> m_6713_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/level/material/FlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: beforeDestroyingBlock -> m_7456_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getBucket()Lnet/minecraft/world/item/Item; from net/minecraft/world/level/material/Fluid/getBucket()Lnet/minecraft/world/item/Item;: getBucket -> m_6859_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/level/material/Fluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z: canBeReplacedWith -> m_5486_
 Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
-Conflicting propagated mapping for net/mcreator/homersimpson/item/TappedOutDiscItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/RecordItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/mcreator/homersimpson/item/SimpsonsDonutItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/mcreator/homersimpson/item/SimpsonsDonutItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
-Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
 Sorting
 Writing Output: C:\Users\russe\MCreatorWorkspaces\homer_simpson\build\reobfJar\output.jar
@@ -204,7 +168,14 @@ Writing Output: C:\Users\russe\MCreatorWorkspaces\homer_simpson\build\reobfJar\o
   assets/homer_simpson/animations/benchunker.animation.json
   assets/homer_simpson/animations/homer.animation.json
   assets/homer_simpson/blockstates/
+  assets/homer_simpson/blockstates/ben_burger.json
+  assets/homer_simpson/blockstates/diarrhea.json
+  assets/homer_simpson/blockstates/lard_dimension_portal.json
   assets/homer_simpson/blockstates/poo.json
+  assets/homer_simpson/blockstates/poo_block.json
+  assets/homer_simpson/blockstates/processed_lard_block.json
+  assets/homer_simpson/blockstates/raw_lard_block.json
+  assets/homer_simpson/blockstates/raw_lard_mold_block.json
   assets/homer_simpson/geo/
   assets/homer_simpson/geo/benchunker.geo.json
   assets/homer_simpson/geo/homer.geo.json
@@ -212,17 +183,33 @@ Writing Output: C:\Users\russe\MCreatorWorkspaces\homer_simpson\build\reobfJar\o
   assets/homer_simpson/lang/en_us.json
   assets/homer_simpson/models/
   assets/homer_simpson/models/block/
+  assets/homer_simpson/models/block/ben_burger.json
+  assets/homer_simpson/models/block/diarrhea.json
+  assets/homer_simpson/models/block/lard_dimension_portal_ew.json
+  assets/homer_simpson/models/block/lard_dimension_portal_ns.json
   assets/homer_simpson/models/block/poo.json
+  assets/homer_simpson/models/block/poo_block.json
+  assets/homer_simpson/models/block/processed_lard_block.json
+  assets/homer_simpson/models/block/raw_lard_block.json
+  assets/homer_simpson/models/block/raw_lard_mold_block.json
   assets/homer_simpson/models/custom/
+  assets/homer_simpson/models/custom/burger.json
   assets/homer_simpson/models/custom/chunker.geo.json
   assets/homer_simpson/models/custom/homer.geo.json
   assets/homer_simpson/models/custom/poo.json
+  assets/homer_simpson/models/custom/poo_block.json
+  assets/homer_simpson/models/custom/raw_lard_mold_block.json
   assets/homer_simpson/models/item/
   assets/homer_simpson/models/item/ben_burger.json
   assets/homer_simpson/models/item/ben_chunker_spawn_egg.json
   assets/homer_simpson/models/item/chunk_of_lard.json
+  assets/homer_simpson/models/item/diarrhea_bucket.json
   assets/homer_simpson/models/item/homer_simpson_spawn_egg.json
   assets/homer_simpson/models/item/poo.json
+  assets/homer_simpson/models/item/poo_block.json
+  assets/homer_simpson/models/item/processed_lard_block.json
+  assets/homer_simpson/models/item/raw_lard_block.json
+  assets/homer_simpson/models/item/raw_lard_mold_block.json
   assets/homer_simpson/models/item/simpsons_donut.json
   assets/homer_simpson/models/item/tapped_out_disc.json
   assets/homer_simpson/particles/
@@ -234,6 +221,13 @@ Writing Output: C:\Users\russe\MCreatorWorkspaces\homer_simpson\build\reobfJar\o
   assets/homer_simpson/sounds/cads_cokey3.ogg
   assets/homer_simpson/sounds/cads_cokey4.ogg
   assets/homer_simpson/sounds/chunkburp.ogg
+  assets/homer_simpson/sounds/fart1.ogg
+  assets/homer_simpson/sounds/fart2.ogg
+  assets/homer_simpson/sounds/fart3.ogg
+  assets/homer_simpson/sounds/fart4.ogg
+  assets/homer_simpson/sounds/fart5.ogg
+  assets/homer_simpson/sounds/fart6.ogg
+  assets/homer_simpson/sounds/fart7.ogg
   assets/homer_simpson/sounds/hamb1.ogg
   assets/homer_simpson/sounds/hamb2.ogg
   assets/homer_simpson/sounds/hamb3.ogg
@@ -256,7 +250,14 @@ Writing Output: C:\Users\russe\MCreatorWorkspaces\homer_simpson\build\reobfJar\o
   assets/homer_simpson/sounds/tapped_out.ogg
   assets/homer_simpson/textures/
   assets/homer_simpson/textures/block/
+  assets/homer_simpson/textures/block/burger.png
+  assets/homer_simpson/textures/block/burger_block.png
+  assets/homer_simpson/textures/block/diahhrea.png
   assets/homer_simpson/textures/block/poo.png
+  assets/homer_simpson/textures/block/poo_block.png
+  assets/homer_simpson/textures/block/processed_lard_block_texture.png
+  assets/homer_simpson/textures/block/raw_lard_block.png
+  assets/homer_simpson/textures/block/raw_lard_mold_block.png
   assets/homer_simpson/textures/entities/
   assets/homer_simpson/textures/entities/chunk.png
   assets/homer_simpson/textures/entities/homer.png
@@ -291,6 +292,10 @@ Writing Output: C:\Users\russe\MCreatorWorkspaces\homer_simpson\build\reobfJar\o
   data/homer_simpson/advancements/
   data/homer_simpson/advancements/homer_defeated.json
   data/homer_simpson/advancements/visit_springfield_waste_zone.json
+  data/homer_simpson/dimension/
+  data/homer_simpson/dimension/lard_dimension.json
+  data/homer_simpson/dimension_type/
+  data/homer_simpson/dimension_type/lard_dimension.json
   data/homer_simpson/forge/
   data/homer_simpson/forge/biome_modifier/
   data/homer_simpson/forge/biome_modifier/ben_chunker_biome_modifier.json
@@ -300,12 +305,15 @@ Writing Output: C:\Users\russe\MCreatorWorkspaces\homer_simpson\build\reobfJar\o
   data/homer_simpson/loot_tables/entities/ben_chunker.json
   data/homer_simpson/loot_tables/entities/homer_simpson.json
   data/homer_simpson/recipes/
+  data/homer_simpson/recipes/poo_block_recipe.json
   data/homer_simpson/recipes/simpsons_donut_recipe.json
   data/homer_simpson/structures/
   data/homer_simpson/structures/broken_dreams_storage_lockers.nbt
   data/homer_simpson/structures/seed_structure.nbt
   data/homer_simpson/worldgen/
   data/homer_simpson/worldgen/biome/
+  data/homer_simpson/worldgen/biome/lard_hills.json
+  data/homer_simpson/worldgen/biome/lard_plains.json
   data/homer_simpson/worldgen/biome/spring_field_waste_zone.json
   data/homer_simpson/worldgen/configured_feature/
   data/homer_simpson/worldgen/configured_feature/spring_field_waste_zone_tree.json
@@ -322,14 +330,27 @@ Writing Output: C:\Users\russe\MCreatorWorkspaces\homer_simpson\build\reobfJar\o
   data/homer_simpson/worldgen/template_pool/wasteland_seed.json
   data/minecraft/
   data/minecraft/tags/
+  data/minecraft/tags/blocks/
+  data/minecraft/tags/blocks/overworld_carver_replaceables.json
   data/minecraft/tags/items/
   data/minecraft/tags/items/music_discs.json
+  data/minecraft/tags/worldgen/
+  data/minecraft/tags/worldgen/biome/
+  data/minecraft/tags/worldgen/biome/has_structure/
+  data/minecraft/tags/worldgen/biome/has_structure/mineshaft_mesa.json
   net/
   net/mcreator/
   net/mcreator/homersimpson/
   net/mcreator/homersimpson/HomerSimpsonMod.class
   net/mcreator/homersimpson/block/
+  net/mcreator/homersimpson/block/BenBurgerBlock.class
+  net/mcreator/homersimpson/block/DiarrheaBlock.class
+  net/mcreator/homersimpson/block/LardDimensionPortalBlock.class
   net/mcreator/homersimpson/block/PooBlock.class
+  net/mcreator/homersimpson/block/PooBlockBlock.class
+  net/mcreator/homersimpson/block/ProcessedLardBlockBlock.class
+  net/mcreator/homersimpson/block/RawLardBlockBlock.class
+  net/mcreator/homersimpson/block/RawLardMoldBlockBlock.class
   net/mcreator/homersimpson/client/
   net/mcreator/homersimpson/client/particle/
   net/mcreator/homersimpson/client/particle/StinkCloudParticle$StinkCloudParticleProvider.class
@@ -345,6 +366,13 @@ Writing Output: C:\Users\russe\MCreatorWorkspaces\homer_simpson\build\reobfJar\o
   net/mcreator/homersimpson/entity/model/
   net/mcreator/homersimpson/entity/model/BenChunkerModel.class
   net/mcreator/homersimpson/entity/model/HomerSimpsonModel.class
+  net/mcreator/homersimpson/fluid/
+  net/mcreator/homersimpson/fluid/DiarrheaFluid$Flowing.class
+  net/mcreator/homersimpson/fluid/DiarrheaFluid$Source.class
+  net/mcreator/homersimpson/fluid/DiarrheaFluid.class
+  net/mcreator/homersimpson/fluid/types/
+  net/mcreator/homersimpson/fluid/types/DiarrheaFluidType$1.class
+  net/mcreator/homersimpson/fluid/types/DiarrheaFluidType.class
   net/mcreator/homersimpson/init/
   net/mcreator/homersimpson/init/EntityAnimationFactory.class
   net/mcreator/homersimpson/init/HomerSimpsonModBiomes.class
@@ -352,6 +380,9 @@ Writing Output: C:\Users\russe\MCreatorWorkspaces\homer_simpson\build\reobfJar\o
   net/mcreator/homersimpson/init/HomerSimpsonModBrewingRecipes.class
   net/mcreator/homersimpson/init/HomerSimpsonModEntities.class
   net/mcreator/homersimpson/init/HomerSimpsonModEntityRenderers.class
+  net/mcreator/homersimpson/init/HomerSimpsonModFluidTypes.class
+  net/mcreator/homersimpson/init/HomerSimpsonModFluids$ClientSideHandler.class
+  net/mcreator/homersimpson/init/HomerSimpsonModFluids.class
   net/mcreator/homersimpson/init/HomerSimpsonModItems.class
   net/mcreator/homersimpson/init/HomerSimpsonModJeiInformation.class
   net/mcreator/homersimpson/init/HomerSimpsonModParticleTypes.class
@@ -359,13 +390,23 @@ Writing Output: C:\Users\russe\MCreatorWorkspaces\homer_simpson\build\reobfJar\o
   net/mcreator/homersimpson/init/HomerSimpsonModSounds.class
   net/mcreator/homersimpson/init/HomerSimpsonModTabs.class
   net/mcreator/homersimpson/item/
-  net/mcreator/homersimpson/item/BenBurgerItem.class
   net/mcreator/homersimpson/item/ChunkOfLardItem.class
+  net/mcreator/homersimpson/item/DiarrheaItem.class
   net/mcreator/homersimpson/item/SimpsonsDonutItem.class
   net/mcreator/homersimpson/item/TappedOutDiscItem.class
   net/mcreator/homersimpson/procedures/
+  net/mcreator/homersimpson/procedures/BenBurgerEatenProcedure.class
   net/mcreator/homersimpson/procedures/BenChunkerParticleEmitterProcedure.class
+  net/mcreator/homersimpson/procedures/ChunkOfLardIgniterProcedure.class
   net/mcreator/homersimpson/procedures/ChunkerDefeatedProcedure.class
   net/mcreator/homersimpson/procedures/HomerSimpsonDeathProcedure.class
   net/mcreator/homersimpson/procedures/HomerSimpsonHurtProcedure.class
+  net/mcreator/homersimpson/world/
+  net/mcreator/homersimpson/world/dimension/
+  net/mcreator/homersimpson/world/dimension/LardDimensionDimension$DimensionSpecialEffectsHandler$1.class
+  net/mcreator/homersimpson/world/dimension/LardDimensionDimension$DimensionSpecialEffectsHandler.class
+  net/mcreator/homersimpson/world/dimension/LardDimensionDimension.class
+  net/mcreator/homersimpson/world/teleporter/
+  net/mcreator/homersimpson/world/teleporter/LardDimensionPortalShape.class
+  net/mcreator/homersimpson/world/teleporter/LardDimensionTeleporter.class
   pack.mcmeta

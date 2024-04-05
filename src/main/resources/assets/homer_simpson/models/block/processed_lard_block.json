@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "homer_simpson:block/processed_lard_block_texture",
+    "up": "homer_simpson:block/processed_lard_block_texture",
+    "north": "homer_simpson:block/processed_lard_block_texture",
+    "east": "homer_simpson:block/processed_lard_block_texture",
+    "south": "homer_simpson:block/processed_lard_block_texture",
+    "west": "homer_simpson:block/processed_lard_block_texture",
+    "particle": "homer_simpson:block/processed_lard_block_texture"
+  },
+  "render_type": "solid"
+}

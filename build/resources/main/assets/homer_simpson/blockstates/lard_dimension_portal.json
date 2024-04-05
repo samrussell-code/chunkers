@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "homer_simpson:block/lard_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "homer_simpson:block/lard_dimension_portal_ns"
+    }
+  }
+}

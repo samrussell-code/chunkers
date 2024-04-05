@@ -339,20 +339,6 @@
       }
     },
     {
-      "name": "BenBurger",
-      "type": "item",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ben_burger",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/homersimpson/item/BenBurgerItem.java",
-          "src/main/resources/assets/homer_simpson/models/item/ben_burger.json"
-        ]
-      }
-    },
-    {
       "name": "ChunkOfLard",
       "type": "item",
       "sortid": 25,
@@ -376,6 +362,235 @@
       "metadata": {
         "files": [
           "src/main/resources/data/homer_simpson/loot_tables/entities/ben_chunker.json"
+        ]
+      }
+    },
+    {
+      "name": "BenBurger",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ben_burger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/homer_simpson/models/block/ben_burger.json",
+          "src/main/java/net/mcreator/homersimpson/block/BenBurgerBlock.java",
+          "src/main/resources/assets/homer_simpson/models/item/ben_burger.json",
+          "src/main/resources/assets/homer_simpson/blockstates/ben_burger.json"
+        ]
+      }
+    },
+    {
+      "name": "BenBurgerEaten",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ben_burger_eaten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/homersimpson/procedures/BenBurgerEatenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RawLardMoldBlock",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_lard_mold_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/homer_simpson/models/item/raw_lard_mold_block.json",
+          "src/main/resources/assets/homer_simpson/models/block/raw_lard_mold_block.json",
+          "src/main/java/net/mcreator/homersimpson/block/RawLardMoldBlockBlock.java",
+          "src/main/resources/assets/homer_simpson/blockstates/raw_lard_mold_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ProcessedLardBlock",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processed_lard_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/homer_simpson/models/item/processed_lard_block.json",
+          "src/main/resources/assets/homer_simpson/blockstates/processed_lard_block.json",
+          "src/main/resources/assets/homer_simpson/models/block/processed_lard_block.json",
+          "src/main/java/net/mcreator/homersimpson/block/ProcessedLardBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RawLardBlock",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_lard_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/homer_simpson/models/item/raw_lard_block.json",
+          "src/main/resources/assets/homer_simpson/blockstates/raw_lard_block.json",
+          "src/main/java/net/mcreator/homersimpson/block/RawLardBlockBlock.java",
+          "src/main/resources/assets/homer_simpson/models/block/raw_lard_block.json"
+        ]
+      }
+    },
+    {
+      "name": "LardDimension",
+      "type": "dimension",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lard_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/homer_simpson/models/block/lard_dimension_portal_ns.json",
+          "src/main/java/net/mcreator/homersimpson/block/LardDimensionPortalBlock.java",
+          "src/main/java/net/mcreator/homersimpson/world/teleporter/LardDimensionPortalShape.java",
+          "src/main/resources/data/homer_simpson/dimension/lard_dimension.json",
+          "src/main/resources/assets/homer_simpson/blockstates/lard_dimension_portal.json",
+          "src/main/resources/assets/homer_simpson/models/block/lard_dimension_portal_ew.json",
+          "src/main/java/net/mcreator/homersimpson/world/teleporter/LardDimensionTeleporter.java",
+          "src/main/resources/data/homer_simpson/dimension_type/lard_dimension.json",
+          "src/main/java/net/mcreator/homersimpson/world/dimension/LardDimensionDimension.java"
+        ]
+      }
+    },
+    {
+      "name": "ChunkOfLardIgniter",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chunk_of_lard_igniter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/homersimpson/procedures/ChunkOfLardIgniterProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LardPlains",
+      "type": "biome",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lard_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/homer_simpson/worldgen/biome/lard_plains.json"
+        ]
+      }
+    },
+    {
+      "name": "LardHills",
+      "type": "biome",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lard_hills",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/homer_simpson/worldgen/biome/lard_hills.json"
+        ]
+      }
+    },
+    {
+      "name": "PooBlock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poo_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/homer_simpson/blockstates/poo_block.json",
+          "src/main/resources/assets/homer_simpson/models/item/poo_block.json",
+          "src/main/java/net/mcreator/homersimpson/block/PooBlockBlock.java",
+          "src/main/resources/assets/homer_simpson/models/block/poo_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PooBlockRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poo_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/homer_simpson/recipes/poo_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Diarrhea",
+      "type": "fluid",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diarrhea",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/homer_simpson/models/block/diarrhea.json",
+          "src/main/java/net/mcreator/homersimpson/fluid/DiarrheaFluid.java",
+          "src/main/java/net/mcreator/homersimpson/item/DiarrheaItem.java",
+          "src/main/resources/assets/homer_simpson/blockstates/diarrhea.json",
+          "src/main/java/net/mcreator/homersimpson/block/DiarrheaBlock.java",
+          "src/main/resources/assets/homer_simpson/models/item/diarrhea_bucket.json",
+          "src/main/java/net/mcreator/homersimpson/fluid/types/DiarrheaFluidType.java"
         ]
       }
     }
@@ -448,6 +663,20 @@
       ],
       "category": "neutral",
       "subtitle": "Chunker alert.."
+    },
+    {
+      "name": "fart",
+      "files": [
+        "fart1",
+        "fart2",
+        "fart3",
+        "fart4",
+        "fart5",
+        "fart6",
+        "fart7"
+      ],
+      "category": "neutral",
+      "subtitle": "Someone ripped one!"
     }
   ],
   "language_map": {
@@ -456,21 +685,31 @@
       "block.homer_simpson.poo": "Poo",
       "item.homer_simpson.simpsons_donut": "Pink Frosted Donut",
       "item.homer_simpson.ben_chunker_spawn_egg": "Ben Chunker Spawn Egg",
-      "item.homer_simpson.ben_burger": "Grease Burger",
       "jei.homer_simpson.simpsons_donut_info": "A big, round pastry with pink frosting. It melts in your mouth, glazing the back of your throat. When you bite into it, you feel ecstasy.",
       "subtitles.tapped_out": "",
+      "item.homer_simpson.diarrhea_bucket": "Diarrhea Bucket",
+      "block.homer_simpson.raw_lard_mold_block": "Raw Lard Mold Block",
+      "biome.homer_simpson.lard_hills": "Poo Hills",
       "subtitles.homer_dead": "Homer dies..",
       "item_group.homer_simpson.simpsons_tab": "The Simpsons",
       "biome.homer_simpson.spring_field_waste_zone": "Springfield Waste Zone",
+      "block.homer_simpson.processed_lard_block": "Processed Lard Block",
       "advancements.visit_springfield_waste_zone.descr": "Smells fishy...",
+      "block.homer_simpson.diarrhea": "Diarrhea",
       "advancements.visit_springfield_waste_zone.title": "Visit Springfield Waste Zone",
       "item.homer_simpson.tapped_out_disc.desc": "Andre Wilmore - My Springfield Music",
+      "subtitles.fart": "Someone ripped one!",
+      "block.homer_simpson.poo_block": "Block of Poo",
+      "fluid.homer_simpson.diarrhea": "Diarrhea",
       "item.homer_simpson.tapped_out_disc": "Tapped Out",
       "subtitles.homer_ambient": "Homer waffling..",
       "advancements.homer_defeated.descr": "You killed him?!",
       "entity.homer_simpson.homer_simpson": "Homer Simpson",
+      "block.homer_simpson.ben_burger": "Grease Burger",
       "advancements.homer_defeated.title": "Homer Defeated",
+      "biome.homer_simpson.lard_plains": "Lard Plains",
       "item.homer_simpson.homer_simpson_spawn_egg": "Homer Simpson Spawn Egg",
+      "block.homer_simpson.raw_lard_block": "Raw Lard Block",
       "item.homer_simpson.chunk_of_lard": "Chunk of Lard",
       "subtitles.homer_walk": "Homer walking..",
       "subtitles.homer_hurt": "Homer hurt..",
