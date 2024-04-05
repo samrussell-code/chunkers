@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "homer_simpson:spring_field_waste_zone",
+  "spawners": {
+    "type": "homer_simpson:homer_simpson",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

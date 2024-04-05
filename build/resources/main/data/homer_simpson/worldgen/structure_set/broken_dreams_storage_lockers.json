@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "homer_simpson:broken_dreams_storage_lockers",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 10,
+    "salt": 448762016
+  }
+}

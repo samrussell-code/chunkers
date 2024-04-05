@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Tapped Out",
+    "rarity": "RARE",
+    "texture": "tapped_out_disc",
+    "description": "Andre Wilmore - My Springfield Music",
+    "creativeTab": {
+      "value": "CUSTOM:SimpsonsTab"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:tapped_out"
+    },
+    "lengthInTicks": 1860,
+    "analogOutput": 1
+  }
+}

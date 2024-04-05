@@ -1,0 +1,491 @@
+{
+  "mod_elements": [
+    {
+      "name": "HomerSimpson",
+      "type": "animatedentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "homer_simpson",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/homersimpson/entity/HomerSimpsonEntity.java",
+          "src/main/resources/data/homer_simpson/forge/biome_modifier/homer_simpson_biome_modifier.json",
+          "src/main/resources/assets/homer_simpson/models/item/homer_simpson_spawn_egg.json",
+          "src/main/java/net/mcreator/homersimpson/client/renderer/HomerSimpsonRenderer.java",
+          "src/main/java/net/mcreator/homersimpson/entity/model/HomerSimpsonModel.java"
+        ]
+      }
+    },
+    {
+      "name": "HomerSimpsonHurt",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "homer_simpson_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/homersimpson/procedures/HomerSimpsonHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SimpsonsDonut",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simpsons_donut",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/homer_simpson/models/item/simpsons_donut.json",
+          "src/main/java/net/mcreator/homersimpson/item/SimpsonsDonutItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SimpsonsDonutRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simpsons_donut_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/homer_simpson/recipes/simpsons_donut_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SimpsonsDonutInfo",
+      "type": "jeiinformation",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simpsons_donut_info",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HomerSimpsonLootTable",
+      "type": "loottable",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "homer_simpson_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/homer_simpson/loot_tables/entities/homer_simpson.json"
+        ]
+      }
+    },
+    {
+      "name": "HomerSimpsonDeath",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "homer_simpson_death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/homersimpson/procedures/HomerSimpsonDeathProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HomerSimpsonInfo",
+      "type": "jeiinformation",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "homer_simpson_info",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HomerDefeated",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "homer_defeated",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/homer_simpson/advancements/homer_defeated.json"
+        ]
+      }
+    },
+    {
+      "name": "SimpsonsTab",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simpsons_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "VisitSpringfieldWasteZone",
+      "type": "achievement",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "visit_springfield_waste_zone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/homer_simpson/advancements/visit_springfield_waste_zone.json"
+        ]
+      }
+    },
+    {
+      "name": "SpringFieldWasteZone",
+      "type": "biome",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_field_waste_zone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/homer_simpson/worldgen/placed_feature/spring_field_waste_zone_tree.json",
+          "src/main/resources/data/homer_simpson/worldgen/biome/spring_field_waste_zone.json",
+          "src/main/resources/data/homer_simpson/worldgen/configured_feature/spring_field_waste_zone_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "WastelandSeed",
+      "type": "structure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasteland_seed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/homer_simpson/worldgen/structure/wasteland_seed.json",
+          "src/main/resources/data/homer_simpson/worldgen/structure_set/wasteland_seed.json",
+          "src/main/resources/data/homer_simpson/worldgen/template_pool/wasteland_seed.json"
+        ]
+      }
+    },
+    {
+      "name": "BrokenDreamsStorageLockers",
+      "type": "structure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_dreams_storage_lockers",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/homer_simpson/worldgen/template_pool/broken_dreams_storage_lockers.json",
+          "src/main/resources/data/homer_simpson/worldgen/structure_set/broken_dreams_storage_lockers.json",
+          "src/main/resources/data/homer_simpson/worldgen/structure/broken_dreams_storage_lockers.json"
+        ]
+      }
+    },
+    {
+      "name": "TappedOutDisc",
+      "type": "musicdisc",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tapped_out_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/homer_simpson/models/item/tapped_out_disc.json",
+          "src/main/java/net/mcreator/homersimpson/item/TappedOutDiscItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BenChunker",
+      "type": "animatedentity",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ben_chunker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/homer_simpson/models/item/ben_chunker_spawn_egg.json",
+          "src/main/resources/data/homer_simpson/forge/biome_modifier/ben_chunker_biome_modifier.json",
+          "src/main/java/net/mcreator/homersimpson/entity/BenChunkerEntity.java",
+          "src/main/java/net/mcreator/homersimpson/entity/model/BenChunkerModel.java",
+          "src/main/java/net/mcreator/homersimpson/client/renderer/BenChunkerRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "StinkCloud",
+      "type": "particle",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stink_cloud",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/homersimpson/client/particle/StinkCloudParticle.java",
+          "src/main/resources/assets/homer_simpson/particles/stink_cloud.json"
+        ]
+      }
+    },
+    {
+      "name": "BenChunkerParticleEmitter",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ben_chunker_particle_emitter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/homersimpson/procedures/BenChunkerParticleEmitterProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Poo",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/homersimpson/block/PooBlock.java",
+          "src/main/resources/assets/homer_simpson/blockstates/poo.json",
+          "src/main/resources/assets/homer_simpson/models/item/poo.json",
+          "src/main/resources/assets/homer_simpson/models/block/poo.json"
+        ]
+      }
+    },
+    {
+      "name": "ChunkerDefeated",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chunker_defeated",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/homersimpson/procedures/ChunkerDefeatedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChunkerLootTable",
+      "type": "loottable",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chunker_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/homer_simpson/loot_tables/chunker_loot_table.json"
+        ]
+      }
+    },
+    {
+      "name": "BenBurger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ben_burger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/homersimpson/item/BenBurgerItem.java",
+          "src/main/resources/assets/homer_simpson/models/item/ben_burger.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "homer_dead",
+      "files": [
+        "hide"
+      ],
+      "category": "neutral",
+      "subtitle": "Homer dies.."
+    },
+    {
+      "name": "homer_ambient",
+      "files": [
+        "hamb1",
+        "hamb2",
+        "hamb3",
+        "hamb4",
+        "hamb5",
+        "hamb6"
+      ],
+      "category": "neutral",
+      "subtitle": "Homer waffling.."
+    },
+    {
+      "name": "homer_hurt",
+      "files": [
+        "hurt"
+      ],
+      "category": "neutral",
+      "subtitle": "Homer hurt.."
+    },
+    {
+      "name": "homer_walk",
+      "files": [
+        "hwalk1",
+        "hwalk2",
+        "hwalk3",
+        "hwalk4",
+        "hwalk5"
+      ],
+      "category": "neutral",
+      "subtitle": "Homer walking.."
+    },
+    {
+      "name": "tapped_out",
+      "files": [
+        "tapped_out"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "chunker_ambient",
+      "files": [
+        "cads_cokey1",
+        "cads_cokey2",
+        "cads_cokey3",
+        "cads_cokey4",
+        "chunkburp",
+        "silence1",
+        "silence2",
+        "silence3",
+        "silence4",
+        "silence5",
+        "silence6"
+      ],
+      "category": "neutral",
+      "subtitle": "Chunker alert.."
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.homer_simpson.tapped_out_disc.desc": "Andre Wilmore - My Springfield Music",
+      "entity.homer_simpson.ben_chunker": "Ben Chunker",
+      "block.homer_simpson.poo": "Poo",
+      "item.homer_simpson.simpsons_donut": "Pink Frosted Donut",
+      "item.homer_simpson.ben_chunker_spawn_egg": "Ben Chunker Spawn Egg",
+      "item.homer_simpson.tapped_out_disc": "Tapped Out",
+      "item.homer_simpson.ben_burger": "Pink Frosted Donut",
+      "subtitles.homer_ambient": "Homer waffling..",
+      "jei.homer_simpson.simpsons_donut_info": "A big, round pastry with pink frosting. It melts in your mouth, glazing the back of your throat. When you bite into it, you feel ecstasy.",
+      "advancements.homer_defeated.descr": "You killed him?!",
+      "entity.homer_simpson.homer_simpson": "Homer Simpson",
+      "advancements.homer_defeated.title": "Homer Defeated",
+      "subtitles.tapped_out": "",
+      "item.homer_simpson.homer_simpson_spawn_egg": "Homer Simpson Spawn Egg",
+      "subtitles.homer_walk": "Homer walking..",
+      "subtitles.homer_dead": "Homer dies..",
+      "item_group.homer_simpson.simpsons_tab": "The Simpsons",
+      "biome.homer_simpson.spring_field_waste_zone": "Springfield Waste Zone",
+      "subtitles.homer_hurt": "Homer hurt..",
+      "jei.homer_simpson.homer_simpson_info": "D\u0027oh!",
+      "advancements.visit_springfield_waste_zone.descr": "Smells fishy...",
+      "subtitles.chunker_ambient": "Chunker alert..",
+      "advancements.visit_springfield_waste_zone.title": "Visit Springfield Waste Zone"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "homer_simpson",
+    "modName": "Homer Simpson",
+    "version": "1.0.0",
+    "author": "Smul, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.homersimpson",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

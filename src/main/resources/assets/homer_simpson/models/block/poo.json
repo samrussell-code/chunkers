@@ -1,0 +1,9 @@
+{
+  "parent": "homer_simpson:custom/poo",
+  "textures": {
+    "all": "homer_simpson:block/poo",
+    "particle": "homer_simpson:block/poo",
+    "0": "homer_simpson:block/poo"
+  },
+  "render_type": "cutout"
+}

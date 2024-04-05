@@ -1,0 +1,131 @@
+{
+  "homer_dead": {
+    "subtitle": "subtitles.homer_dead",
+    "sounds": [
+      {
+        "name": "homer_simpson:hide",
+        "stream": false
+      }
+    ]
+  },
+  "homer_ambient": {
+    "subtitle": "subtitles.homer_ambient",
+    "sounds": [
+      {
+        "name": "homer_simpson:hamb1",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:hamb2",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:hamb3",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:hamb4",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:hamb5",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:hamb6",
+        "stream": false
+      }
+    ]
+  },
+  "homer_hurt": {
+    "subtitle": "subtitles.homer_hurt",
+    "sounds": [
+      {
+        "name": "homer_simpson:hurt",
+        "stream": false
+      }
+    ]
+  },
+  "homer_walk": {
+    "subtitle": "subtitles.homer_walk",
+    "sounds": [
+      {
+        "name": "homer_simpson:hwalk1",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:hwalk2",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:hwalk3",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:hwalk4",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:hwalk5",
+        "stream": false
+      }
+    ]
+  },
+  "tapped_out": {
+    "sounds": [
+      {
+        "name": "homer_simpson:tapped_out",
+        "stream": true
+      }
+    ]
+  },
+  "chunker_ambient": {
+    "subtitle": "subtitles.chunker_ambient",
+    "sounds": [
+      {
+        "name": "homer_simpson:cads_cokey1",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:cads_cokey2",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:cads_cokey3",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:cads_cokey4",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:chunkburp",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:silence1",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:silence2",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:silence3",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:silence4",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:silence5",
+        "stream": false
+      },
+      {
+        "name": "homer_simpson:silence6",
+        "stream": false
+      }
+    ]
+  }
+}

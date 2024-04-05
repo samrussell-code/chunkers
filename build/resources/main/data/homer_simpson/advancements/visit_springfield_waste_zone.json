@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "homer_simpson:homer_simpson_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.visit_springfield_waste_zone.title"
+    },
+    "description": {
+      "translate": "advancements.visit_springfield_waste_zone.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "visit_springfield_waste_zone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "homer_simpson:spring_field_waste_zone"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

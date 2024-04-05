@@ -1,0 +1,74 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ModelChunker",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "ChunkerHead",
+					"pivot": [0, 24, -1.6],
+					"cubes": [
+						{"origin": [-4, 24, -6.6], "size": [8, 9, 8], "uv": [0, 0]},
+						{"origin": [-3, 23.5, -5.6], "size": [6, 2, 2], "uv": [29, 58]}
+					]
+				},
+				{
+					"name": "ChunkerNose",
+					"parent": "ChunkerHead",
+					"pivot": [0, 27, -1.6],
+					"cubes": [
+						{"origin": [-1, 27, -7.6], "size": [2, 1, 2], "uv": [24, 0]}
+					]
+				},
+				{
+					"name": "ChunkerLegLeft",
+					"pivot": [2, 12, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [1, 0, -2], "size": [4, 12, 4], "uv": [0, 22]}
+					]
+				},
+				{
+					"name": "ChunkerTorso",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "ChunkerShirt",
+					"pivot": [0, 25.8, 0],
+					"cubes": [
+						{"origin": [-4, 11.8, -3], "size": [8, 12, 6], "inflate": 0.9, "uv": [0, 38]},
+						{"origin": [-4, 10.9, -6], "size": [8, 5, 2], "uv": [38, 5]}
+					]
+				},
+				{
+					"name": "ChunkerLegRight",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-5, 0, -2], "size": [4, 12, 4], "uv": [0, 22]}
+					]
+				},
+				{
+					"name": "ChunkerArmLeft",
+					"pivot": [5, 24, 0],
+					"cubes": [
+						{"origin": [5, 14, -2], "size": [3, 10, 3], "uv": [40, 44]}
+					]
+				},
+				{
+					"name": "ChunkerArmRight",
+					"pivot": [-5, 24, 0],
+					"cubes": [
+						{"origin": [-8, 14, -2], "size": [3, 10, 3], "uv": [28, 44]}
+					]
+				}
+			]
+		}
+	]
+}

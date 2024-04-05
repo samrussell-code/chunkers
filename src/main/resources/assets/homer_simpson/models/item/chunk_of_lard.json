@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "homer_simpson:item/chunk_of_lard"
+  }
+}
